@@ -14,12 +14,10 @@ MarkdownBox = React.createClass({
 	},
 
 	createMarkdown(){
-		console.log(marked(this.state.html))
 		return marked(this.state.html)
 	},
 
 	render(){
-		console.log(this.state.html)
 		return(
 			<div className="row">
 				<MarkdownEditor

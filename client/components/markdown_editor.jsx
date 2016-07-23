@@ -3,7 +3,6 @@ import ContentEditable from 'react-contenteditable';
 
 MarkdownEditor = React.createClass({
 	handleChange(event){
-		console.log(event.target.value)
 		this.props.onTextUpdate(event.target.value)
 	},
 
