@@ -8,13 +8,12 @@ MarkdownEditor = React.createClass({
 
 	render(){
 		return(
-			<div className="col-sm-6">
 				<ContentEditable
+					className="col-sm-6 markdown-editor"
 					html={this.props.content}
 					disabled={false}
 					onChange={this.handleChange}
 				/>
-			</div>
 		)
 	}
 })

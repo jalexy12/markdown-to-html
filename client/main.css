@@ -1,1 +1,9 @@
 /* CSS declarations go here */
+*[contenteditable="true"]{display: inline-block;}
+.markdown-content {
+	height: 75vh;
+}
+
+div[contenteditable=true] {
+	height: 75vh;
+}
